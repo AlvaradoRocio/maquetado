@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: rgb(199, 168, 122);
+    padding: 1em 0;
+}
+
+header h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 10px;  
+    position: relative;
+    bottom: 50px;
+    display: inline-block;
+    margin-left: 15px;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 19%;
+}
+
+nav ul li a{
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+nav ul li a.activo{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+}
+
+.holder{
+    width: 960px;
+    margin:0 auto;
+}
+
+.fondo{
+    background: linear-gradient(to bottom, rgb(219, 194, 161), rgb(219, 202, 179));
+    padding-top: 1em;;
+}
+.homeimg{
+    margin-bottom: 1.5em;
+   
+}
+
+.columnas{
+    overflow:hidden;
+    padding: 25px
+}
+
+.columna1{
+    float: left;
+}
+
+
+.columna2{
+    float:right;
+}
+
+.bienvenidos, .comentarios{
+    box-sizing: border-box;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(150, 31, 31);
+    line-height: 25px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.comentarios{
+    width:25%;
+}
+
+
+.comentarios{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+
+.separacion{
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:  0.5px solid black;
+    margin:5px;
+}
+
+.cat h4{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding:0.5em;    
+}
+
+.entero{
+    overflow: hidden;
+    margin:0;
+    
+}
+
+.foto{
+    width:50%;
+    
+    float:left;
+    padding: 25px;
+    box-sizing: border-box;
+
+}
+
+.foto{
+    text-align: center;
+    
+    Transition: all 0.8s ease 0.8s; 
+}
+
+.foto img{
+    border-radius: 20%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    width: 400px;
+    height: 400px;
+    
+    Transition: all 0.8s ease 0.8s; 
+}
+
+.entero h3{
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-style: italic;
+    background-color: rgb(83, 36, 158);
+    padding: 40px;
+    border-radius: 15%;
+    box-shadow: 0 0 30px black;
+    Transition: all 0.8s ease 0.8s; 
+    
+}
+
+.entero h3:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 3px black;
+    
+}
+
+.text1, .text2{
+    position: absolute;
+    top:56%;
+    transform: translate(-50%, -25%);
+    white-space: nowrap;    
+    Transition: all 0.3s ease 0.5s; 
+    white-space: nowrap; 
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text3, .text4{
+    position: absolute;
+    top:128%;
+    
+    transform: translate(-50%, -25%);
+}
+
+.text1, .text3{
+    left:32%;
+}
+
+.text2, .text4{
+    right:22%;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
